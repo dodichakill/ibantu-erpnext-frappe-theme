@@ -5,6 +5,30 @@ All notable changes to Ibantu Theme will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.0.7] - 2024-12-18
+
+### Fixed
+
+- 🐛 **CRITICAL**: Fixed navbar icons not visible (chat & notifications icons had no contrast)
+- ✅ Added high-contrast styling for all navbar SVG icons
+- 🎨 Icons now show in bright yellow with hover effects
+- ✅ Fixed notification badge styling with red background
+- 🔧 Fixed theme not appearing in Switch Theme dialog
+- ✅ Added ibantu-theme-init.js for proper theme registration
+
+### Added
+
+- New file: `ibantu-theme-init.js` - Registers themes on app load
+- Navbar icon contrast: Yellow icons on dark navbar background
+- Hover effects for navbar icons with glow (Canary theme)
+- Dropdown menu styling in navbar
+
+### Technical
+
+- SVG icons now use `stroke: var(--yellow-300) !important`
+- Themes auto-register via frappe.boot.desk_settings
+- Both themes (Golden & Canary) now appear in Switch Theme dialog
+
 ## [1.0.6] - 2024-12-18
 
 ### Fixed

@@ -16,6 +16,7 @@ app_include_css = [
     "/assets/ibantu_theme/css/ibantu-canary.css"
 ]
 app_include_js = [
+    "/assets/ibantu_theme/js/ibantu-theme-init.js",
     "/assets/ibantu_theme/js/theme-switcher.js"
 ]
 
