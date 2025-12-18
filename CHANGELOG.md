@@ -28,7 +28,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Simplified fetch_themes() method
 - Comprehensive navbar icon selectors: .navbar svg, nav.navbar svg, etc.
 - Added .navbar use selector for SVG use elements
-- Removed __() translation wrapper (not needed)
+- Removed \_\_() translation wrapper (not needed)
 
 ## [1.0.8] - 2024-12-18
 

@@ -51,7 +51,7 @@ Tema dengan canary yellow yang vibrant dan modern.
    ```bash
    cd /path/to/frappe-bench
    bench get-app https://github.com/dodichakill/ibantu-erpnext-frappe-theme.git
-   
+
    # Build error akan muncul - ABAIKAN!
    # App sudah terinstall dengan benar meskipun ada error
    ```

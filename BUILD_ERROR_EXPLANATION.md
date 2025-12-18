@@ -70,13 +70,13 @@ $ sudo bench restart
 
 ## 📋 SUMMARY
 
-| Step | Status | Notes |
-|------|--------|-------|
-| Git Clone | ✅ SUCCESS | Code downloaded |
-| Pip Install | ✅ SUCCESS | Module installed |
-| Yarn Install | ✅ SUCCESS | Dependencies OK |
-| Bench Build | ❌ ERROR | **NOT NEEDED - IGNORE!** |
-| Install to Site | ✅ SUCCESS | Theme works! |
+| Step            | Status     | Notes                    |
+| --------------- | ---------- | ------------------------ |
+| Git Clone       | ✅ SUCCESS | Code downloaded          |
+| Pip Install     | ✅ SUCCESS | Module installed         |
+| Yarn Install    | ✅ SUCCESS | Dependencies OK          |
+| Bench Build     | ❌ ERROR   | **NOT NEEDED - IGNORE!** |
+| Install to Site | ✅ SUCCESS | Theme works!             |
 
 ## 🎯 KESIMPULAN
 
