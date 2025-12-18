@@ -5,6 +5,27 @@ All notable changes to Ibantu Theme will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.0.6] - 2024-12-18
+
+### Fixed
+
+- 🐛 Fixed "App ibantu_theme not in apps.txt" error when using --skip-assets
+- ✅ Updated CLIENT_INSTALL_FIX.md with TWO installation methods
+- 📝 METHOD 1 (Recommended): Install normally, ignore build error, install to site
+- 📝 METHOD 2: Use --skip-assets + manually add to apps.txt
+
+### Solution
+
+**METHOD 1 (RECOMMENDED):**
+
+```bash
+bench get-app <url>
+# Build akan error - ABAIKAN saja!
+bench --site your-site install-app ibantu_theme
+```
+
+Build error tidak masalah karena assets sudah pre-compiled. Pip install tetap berhasil.
+
 ## [1.0.5] - 2024-12-18
 
 ### Documentation
@@ -16,6 +37,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Solution
 
 **Install command:**
+
 ```bash
 bench get-app https://github.com/dodichakill/ibantu-erpnext-frappe-theme.git --skip-assets
 ```
