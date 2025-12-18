@@ -2,7 +2,31 @@
 
 ## Common Installation Issues
 
-### 1. Build Error (TypeError: paths[0] must be of type string)
+### 1. Pip Install Error (Flit/Docstring Error) - FIXED in v1.0.2
+
+**Problem:**
+
+```
+flit_core.common.NoDocstringError: Flit cannot package module without docstring
+error: metadata-generation-failed
+```
+
+**Solution:**
+This error is FIXED in version 1.0.2+. Update to the latest version:
+
+```bash
+cd apps/ibantu-erpnext-frappe-theme
+git pull
+cd ../..
+bench --site your-site-name install-app ibantu_theme
+```
+
+If you're still on an old version, the issue was:
+
+- ❌ Old: Had `pyproject.toml` using flit_core (conflicted with setup.py)
+- ✅ New: Uses standard Frappe `setup.py` with setuptools
+
+### 2. Build Error (TypeError: paths[0] must be of type string) - FIXED in v1.0.1
 
 **Problem:**
 

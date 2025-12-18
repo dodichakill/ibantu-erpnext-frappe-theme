@@ -3,8 +3,11 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![ERPNext](https://img.shields.io/badge/ERPNext-Compatible-yellow)](https://erpnext.com)
 [![Frappe](https://img.shields.io/badge/Frappe-Framework-yellow)](https://frappeframework.com)
+[![Version](https://img.shields.io/badge/version-1.0.2-yellow.svg)](https://github.com/dodichakill/ibantu-erpnext-frappe-theme/releases)
 
 **Ibantu Theme** adalah custom app untuk Frappe/ERPNext yang menyediakan tema modern dengan skema warna kuning yang elegan dan menarik. Tema ini dirancang untuk memberikan pengalaman pengguna yang lebih baik dengan desain yang modern dan profesional.
+
+> **✅ Latest Update (v1.0.2):** Fixed pip installation error - now installs perfectly!
 
 ![Ibantu Theme Preview](https://via.placeholder.com/800x400/FFD700/332B00?text=Ibantu+Modern+Yellow+Theme)
 

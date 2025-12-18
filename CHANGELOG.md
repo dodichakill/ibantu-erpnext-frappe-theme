@@ -5,6 +5,20 @@ All notable changes to Ibantu Theme will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.0.2] - 2024-12-18
+
+### Fixed
+
+- 🐛 Fixed pip install error: "Flit cannot package module without docstring"
+- ✅ Removed pyproject.toml (was causing conflicts with setup.py)
+- ✅ Added proper docstring to `ibantu_theme/__init__.py`
+- 🔧 Now uses standard Frappe setup.py approach (more compatible)
+
+### Changed
+
+- 📦 Package now installs correctly with standard pip
+- 📝 Updated to use setuptools instead of flit_core
+
 ## [1.0.1] - 2024-12-18
 
 ### Fixed
