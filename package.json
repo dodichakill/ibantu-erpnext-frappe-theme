@@ -1,6 +1,6 @@
 {
   "name": "ibantu_theme",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Modern Yellow Theme for ERPNext",
   "scripts": {
     "test": "echo \"No tests specified\""

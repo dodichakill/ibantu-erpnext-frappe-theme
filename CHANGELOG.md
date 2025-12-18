@@ -5,6 +5,30 @@ All notable changes to Ibantu Theme will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.0.5] - 2024-12-18
+
+### Documentation
+
+- 📝 Added CLIENT_INSTALL_FIX.md with proper installation instructions
+- ✅ Use `--skip-assets` flag during bench get-app
+- 🔧 Clear documentation that build process is not needed
+
+### Solution
+
+**Install command:**
+```bash
+bench get-app https://github.com/dodichakill/ibantu-erpnext-frappe-theme.git --skip-assets
+```
+
+This skips the automatic build step that was causing errors.
+
+### Technical
+
+- App uses pre-compiled CSS/JS files
+- No esbuild process required
+- Assets loaded directly via hooks.py
+- `--skip-assets` flag prevents bench from running build command
+
 ## [1.0.4] - 2024-12-18
 
 ### Fixed
