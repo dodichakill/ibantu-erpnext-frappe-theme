@@ -5,6 +5,21 @@ All notable changes to Ibantu Theme will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.0.8] - 2024-12-18
+
+### Fixed
+
+- 🐛 Fixed CSS syntax errors: Removed SCSS syntax (@each, $variables)
+- ✅ Converted @each loop to plain CSS for indicator dots
+- ✅ All CSS files now valid CSS (no SCSS dependencies)
+
+### Technical
+
+- Replaced SCSS `@each $color in $indicator-colors` with manual CSS properties
+- Indicator dots now declared individually in `.indicator` class
+- No more "Unknown at rule @each" errors
+- No more "} expected" syntax errors
+
 ## [1.0.7] - 2024-12-18
 
 ### Fixed

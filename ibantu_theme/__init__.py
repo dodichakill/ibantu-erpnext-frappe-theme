@@ -5,4 +5,4 @@ A beautiful and modern theme with golden and canary yellow color schemes.
 No build process required - uses pre-compiled CSS/JS files.
 """
 
-__version__ = '1.0.7'
+__version__ = '1.0.8'

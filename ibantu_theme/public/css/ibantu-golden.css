@@ -343,11 +343,20 @@
     background: var(--yellow-500);
   }
 
-  $indicator-colors: blue, light-blue, dark-blue, green, yellow, orange, red,
-    gray, grey, darkgrey, purple, pink, cyan;
-  @each $color in $indicator-colors {
-    .indicator {
-      --indicator-dot-#{"" + $color}: var(--bg-#{$color});
-    }
+  /* Indicator Dots */
+  .indicator {
+    --indicator-dot-blue: var(--bg-blue);
+    --indicator-dot-light-blue: var(--bg-light-blue);
+    --indicator-dot-dark-blue: var(--bg-dark-blue);
+    --indicator-dot-green: var(--bg-green);
+    --indicator-dot-yellow: var(--bg-yellow);
+    --indicator-dot-orange: var(--bg-orange);
+    --indicator-dot-red: var(--bg-red);
+    --indicator-dot-gray: var(--bg-gray);
+    --indicator-dot-grey: var(--bg-grey);
+    --indicator-dot-darkgrey: var(--bg-darkgrey);
+    --indicator-dot-purple: var(--bg-purple);
+    --indicator-dot-pink: var(--bg-pink);
+    --indicator-dot-cyan: var(--bg-cyan);
   }
 }
