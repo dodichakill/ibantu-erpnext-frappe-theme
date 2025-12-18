@@ -84,4 +84,4 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - **1.0.0** (2024-12-18) - Initial Release
 
-[1.0.0]: https://github.com/yourusername/ibantu-theme/releases/tag/v1.0.0
+[1.0.0]: https://github.com/dodichakill/ibantu-erpnext-frappe-theme/releases/tag/v1.0.0

@@ -40,7 +40,7 @@ Enhancement suggestions are tracked as GitHub issues. When creating an enhanceme
 
 ```bash
 # Clone your fork
-git clone https://github.com/yourusername/ibantu-theme.git
+git clone https://github.com/dodichakill/ibantu-erpnext-frappe-theme.git
 
 # Navigate to frappe-bench
 cd /path/to/frappe-bench

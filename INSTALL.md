@@ -31,7 +31,7 @@ cd /home/username/frappe-bench
 **Opsi A: Dari GitHub (jika sudah dipublish)**
 
 ```bash
-bench get-app ibantu_theme https://github.com/yourusername/ibantu-theme.git
+bench get-app ibantu_theme https://github.com/dodichakill/ibantu-erpnext-frappe-theme.git
 ```
 
 **Opsi B: Dari Local Directory**

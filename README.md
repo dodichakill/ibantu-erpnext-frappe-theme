@@ -44,7 +44,7 @@ Tema dengan canary yellow yang vibrant dan modern.
 
    ```bash
    cd /path/to/frappe-bench
-   bench get-app https://github.com/yourusername/ibantu-theme.git
+   bench get-app https://github.com/dodichakill/ibantu-erpnext-frappe-theme.git
    ```
 
    Atau jika repository lokal:
@@ -241,8 +241,8 @@ This project is licensed under the MIT License - see the [license.txt](license.t
 Untuk pertanyaan, masalah, atau support:
 
 - 📧 Email: admin@ibantu.com
-- 🐛 Issues: [GitHub Issues](https://github.com/yourusername/ibantu-theme/issues)
-- 📖 Documentation: [Wiki](https://github.com/yourusername/ibantu-theme/wiki)
+- 🐛 Issues: [GitHub Issues](https://github.com/dodichakill/ibantu-erpnext-frappe-theme/issues)
+- 📖 Documentation: [Wiki](https://github.com/dodichakill/ibantu-erpnext-frappe-theme/wiki)
 
 ## 🌟 Acknowledgments
 
