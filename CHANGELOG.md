@@ -5,6 +5,19 @@ All notable changes to Ibantu Theme will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.0.4] - 2024-12-18
+
+### Fixed
+
+- 🐛 Fixed build.json format - changed from comment-only to empty object `{}`
+- ✅ Frappe esbuild now correctly recognizes no files to build
+- 🔧 build.json with only comment was still triggering file scan
+
+### Technical
+
+- build.json format: `{}` (empty object) is correct format for no-build apps
+- Previous v1.0.3 had `{"$comment": "..."}` which wasn't recognized properly
+
 ## [1.0.3] - 2024-12-18
 
 ### Fixed
