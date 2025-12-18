@@ -5,6 +5,31 @@ All notable changes to Ibantu Theme will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.0.9] - 2024-12-18
+
+### Fixed
+
+- 🐛 **CRITICAL**: Refactored to follow Tekton-Theme approach (proven working)
+- ✅ Simplified theme-switcher.js - removed complex initialization
+- ✅ Enhanced navbar icon selectors for better coverage
+- ✅ Updated --icon-stroke variable to brighter yellow
+- ✅ Added comprehensive SVG selectors for all navbar elements
+
+### Changed
+
+- Removed ibantu-theme-init.js (not needed with new approach)
+- Simplified theme registration following Tekton pattern
+- Added more specific navbar SVG selectors
+- Updated icon-stroke colors: Golden (--yellow-300), Canary (--yellow-200)
+
+### Technical
+
+- Theme switcher now extends frappe.ui.ThemeSwitcher directly
+- Simplified fetch_themes() method
+- Comprehensive navbar icon selectors: .navbar svg, nav.navbar svg, etc.
+- Added .navbar use selector for SVG use elements
+- Removed __() translation wrapper (not needed)
+
 ## [1.0.8] - 2024-12-18
 
 ### Fixed

@@ -136,9 +136,9 @@
   --error-bg: var(--red-900);
   --error-border: var(--red-400);
   --icon-fill: transparent;
-  --icon-stroke: var(--yellow-500);
+  --icon-stroke: var(--yellow-200);
   --alert-text-danger: var(--red-300);
-  --alert-text-warning: var(--yellow-300);
+  --alert-text-warning: var(--yellow-200);
   --alert-text-info: var(--blue-300);
   --alert-text-success: var(--green-300);
   --alert-bg-danger: var(--red-900);
@@ -282,18 +282,32 @@
     color: var(--yellow-50) !important;
   }
 
-  .navbar .navbar-nav .nav-link svg,
-  .navbar .navbar-nav .nav-link .icon,
-  .navbar .dropdown-notifications-list svg,
-  .navbar .navbar-right svg {
+  /* All navbar SVG icons */
+  .navbar svg,
+  .navbar .icon svg,
+  .navbar .nav-link svg,
+  .navbar .navbar-nav svg,
+  .navbar .navbar-right svg,
+  .navbar .dropdown-toggle svg,
+  .navbar [class*="icon"] svg,
+  nav.navbar svg {
     stroke: var(--yellow-200) !important;
     fill: transparent !important;
+    color: var(--yellow-200) !important;
   }
 
   .navbar .navbar-nav .nav-link:hover svg,
-  .navbar .navbar-nav .nav-link:hover .icon {
+  .navbar .navbar-nav .nav-link:hover .icon,
+  .navbar svg:hover {
     stroke: var(--yellow-50) !important;
+    color: var(--yellow-50) !important;
     filter: drop-shadow(0 0 4px var(--yellow-400));
+  }
+
+  /* Navbar icon use elements */
+  .navbar use {
+    stroke: inherit;
+    fill: inherit;
   }
 
   /* Notification Badge */
