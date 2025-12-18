@@ -42,35 +42,29 @@ echo ""
 SCRIPT_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 
 # Step 1: Get app
-echo "📦 Step 1/5: Getting app..."
-if [ -d "apps/ibantu_theme" ]; then
+echo "📦 Step 1/4: Getting app..."
+if [ -d "apps/ibantu-erpnext-frappe-theme" ]; then
     echo "   ⚠️  App already exists, skipping..."
 else
-    bench get-app ibantu_theme "$SCRIPT_DIR"
+    bench get-app "$SCRIPT_DIR"
     echo "   ✅ App downloaded"
 fi
 
 # Step 2: Install app to site
 echo ""
-echo "💾 Step 2/5: Installing app to site..."
+echo "💾 Step 2/4: Installing app to site..."
 bench --site "$SITE_NAME" install-app ibantu_theme
 echo "   ✅ App installed"
 
-# Step 3: Build assets
+# Step 3: Clear cache
 echo ""
-echo "🔨 Step 3/5: Building assets..."
-bench build --app ibantu_theme
-echo "   ✅ Assets built"
-
-# Step 4: Clear cache
-echo ""
-echo "🗑️  Step 4/5: Clearing cache..."
+echo "🗑️  Step 3/4: Clearing cache..."
 bench --site "$SITE_NAME" clear-cache
 echo "   ✅ Cache cleared"
 
-# Step 5: Restart
+# Step 4: Restart
 echo ""
-echo "🔄 Step 5/5: Restarting bench..."
+echo "🔄 Step 4/4: Restarting bench..."
 bench restart
 echo "   ✅ Bench restarted"
 

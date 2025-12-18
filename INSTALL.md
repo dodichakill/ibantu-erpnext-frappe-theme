@@ -28,17 +28,13 @@ cd /home/username/frappe-bench
 
 ### 2. Get App dari Repository
 
-**Opsi A: Dari GitHub (jika sudah dipublish)**
+### 2. Get App dari GitHub
 
 ```bash
-bench get-app ibantu_theme https://github.com/dodichakill/ibantu-erpnext-frappe-theme.git
+bench get-app https://github.com/dodichakill/ibantu-erpnext-frappe-theme.git
 ```
 
-**Opsi B: Dari Local Directory**
-
-```bash
-bench get-app ibantu_theme /Users/dodi/Development/works/ibantu/frappe-theme
-```
+**Note:** App akan diinstall tanpa proses build yang kompleks karena menggunakan CSS/JS langsung.
 
 ### 3. Install App ke Site
 
@@ -52,19 +48,15 @@ Ganti `your-site-name` dengan nama site Anda. Contoh:
 bench --site site1.local install-app ibantu_theme
 ```
 
-### 4. Build Assets
+**Note:** Tidak perlu menjalankan `bench build` karena app sudah menggunakan file CSS/JS yang siap pakai!
 
-```bash
-bench build --app ibantu_theme
-```
-
-### 5. Clear Cache
+### 4. Clear Cache (Opsional)
 
 ```bash
 bench --site your-site-name clear-cache
 ```
 
-### 6. Restart Bench
+### 5. Restart Bench
 
 **Untuk Production:**
 
@@ -82,7 +74,7 @@ Ctrl+C
 bench start
 ```
 
-### 7. Aktifkan Tema
+### 6. Aktifkan Tema
 
 1. Login ke ERPNext/Frappe instance Anda
 2. Klik icon **profile** di pojok kanan atas

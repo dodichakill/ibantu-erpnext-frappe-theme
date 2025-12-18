@@ -11,8 +11,13 @@ app_license = "MIT"
 # ------------------
 
 # include js, css files in header of desk.html
-app_include_js = ["ibantu.bundle.js"]
-app_include_css = "ibantu.bundle.css"
+app_include_css = [
+    "/assets/ibantu_theme/css/ibantu-golden.css",
+    "/assets/ibantu_theme/css/ibantu-canary.css"
+]
+app_include_js = [
+    "/assets/ibantu_theme/js/theme-switcher.js"
+]
 
 # include js, css files in header of web template
 # web_include_css = "/assets/ibantu_theme/css/ibantu_theme.css"

@@ -47,19 +47,13 @@ Tema dengan canary yellow yang vibrant dan modern.
    bench get-app https://github.com/dodichakill/ibantu-erpnext-frappe-theme.git
    ```
 
-   Atau jika repository lokal:
-
-   ```bash
-   cd /path/to/frappe-bench
-   bench get-app ibantu_theme /path/to/frappe-theme
-   ```
-
 3. **Install app ke site Anda**
 
    ```bash
-   cd /path/to/frappe-bench
    bench --site your-site-name install-app ibantu_theme
    ```
+
+   **✨ Catatan:** Tidak perlu menjalankan `bench build` karena app sudah menggunakan file CSS/JS siap pakai!
 
 4. **Restart Frappe instance Anda**
 

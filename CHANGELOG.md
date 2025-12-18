@@ -5,6 +5,32 @@ All notable changes to Ibantu Theme will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.0.1] - 2024-12-18
+
+### Fixed
+
+- 🐛 Fixed build error (`TypeError: paths[0] must be of type string`)
+- ⚡ Removed complex build process - now uses direct CSS/JS files
+- 🔧 Updated hooks.py to use direct asset paths instead of bundle files
+- 📦 Removed unnecessary bundle files (ibantu.bundle.js, ibantu.bundle.scss)
+- ✨ Added CSS versions of themes in public/css folder
+- 🚀 Installation now works without `bench build` command
+
+### Changed
+
+- 📝 Updated installation documentation
+- 🔄 Simplified installation process (removed build step)
+- 📋 Updated INSTALL.md with new simplified steps
+- 📚 Added TROUBLESHOOTING.md guide
+
+### Technical Changes
+
+- Changed `app_include_css` from bundle to direct CSS files
+- Changed `app_include_js` from bundle to direct JS file
+- Removed build.json (no longer needed)
+- Added pyproject.toml for better package definition
+- CSS files are now directly referenced without build process
+
 ## [1.0.0] - 2024-12-18
 
 ### Added

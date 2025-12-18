@@ -1,0 +1,355 @@
+[data-theme="ibantu-canary"] {
+  /* Canary Yellow Color Palette - Bright & Modern */
+  --gray-50: #fffef5;
+  --gray-100: #fffaeb;
+  --gray-200: #fff4cc;
+  --gray-300: #ffec99;
+  --gray-400: #ffe366;
+  --gray-500: #ffd700;
+  --gray-600: #ccac00;
+  --gray-700: #998100;
+  --gray-800: #665600;
+  --gray-900: #332b00;
+
+  /* Canary Accent Colors */
+  --yellow-50: #fffef7;
+  --yellow-100: #fffceb;
+  --yellow-200: #fff8cc;
+  --yellow-300: #fff299;
+  --yellow-400: #ffeb66;
+  --yellow-500: #ffe433;
+  --yellow-600: #ffdc00;
+  --yellow-700: #e6c700;
+  --yellow-800: #ccb100;
+  --yellow-900: #998500;
+
+  /* Complementary Colors */
+  --blue-500: #2196f3;
+  --blue-600: #1976d2;
+  --blue-700: #1565c0;
+  --blue-800: #0d47a1;
+  --blue-900: #0a3877;
+
+  --green-500: #4caf50;
+  --green-600: #43a047;
+  --green-700: #388e3c;
+  --green-800: #2e7d32;
+  --green-900: #1b5e20;
+
+  --red-500: #f44336;
+  --red-600: #e53935;
+  --red-700: #d32f2f;
+  --red-800: #c62828;
+  --red-900: #b71c1c;
+
+  --orange-500: #ff9800;
+  --orange-600: #fb8c00;
+  --orange-700: #f57c00;
+  --orange-800: #ef6c00;
+  --orange-900: #e65100;
+
+  --purple-500: #9c27b0;
+  --purple-600: #8e24aa;
+  --purple-700: #7b1fa2;
+  --purple-800: #6a1b9a;
+  --purple-900: #4a148c;
+
+  --pink-500: #e91e63;
+  --pink-600: #d81b60;
+  --pink-700: #c2185b;
+  --pink-800: #ad1457;
+  --pink-900: #880e4f;
+
+  --cyan-500: #00bcd4;
+  --cyan-600: #00acc1;
+  --cyan-700: #0097a7;
+  --cyan-800: #00838f;
+  --cyan-900: #006064;
+
+  /* Primary Text Colors */
+  --text-muted: var(--gray-500);
+  --text-light: var(--gray-400);
+  --text-color: var(--gray-50);
+  --heading-color: var(--yellow-400);
+
+  /* Button Colors */
+  --btn-default-bg: var(--gray-700);
+  --btn-default-hover-bg: var(--gray-600);
+  --btn-primary-bg: var(--yellow-700);
+  --btn-primary-hover-bg: var(--yellow-600);
+
+  /* Background Text Color Pairs */
+  --bg-blue: var(--blue-600);
+  --bg-light-blue: var(--blue-500);
+  --bg-dark-blue: var(--blue-800);
+  --bg-green: var(--green-600);
+  --bg-yellow: var(--yellow-600);
+  --bg-orange: var(--orange-600);
+  --bg-red: var(--red-600);
+  --bg-gray: var(--gray-600);
+  --bg-grey: var(--gray-600);
+  --bg-darkgrey: var(--gray-700);
+  --bg-dark-gray: var(--gray-700);
+  --bg-light-gray: var(--gray-500);
+  --bg-purple: var(--purple-600);
+  --bg-pink: var(--pink-600);
+  --bg-cyan: var(--cyan-600);
+
+  /* Text on Background Colors */
+  --text-on-blue: var(--gray-50);
+  --text-on-light-blue: var(--gray-50);
+  --text-on-dark-blue: var(--gray-200);
+  --text-on-green: var(--gray-50);
+  --text-on-yellow: var(--gray-900);
+  --text-on-orange: var(--gray-50);
+  --text-on-red: var(--gray-50);
+  --text-on-gray: var(--gray-50);
+  --text-on-grey: var(--gray-50);
+  --text-on-darkgrey: var(--gray-200);
+  --text-on-dark-gray: var(--gray-200);
+  --text-on-light-gray: var(--gray-900);
+  --text-on-purple: var(--purple-100);
+  --text-on-pink: var(--pink-100);
+  --text-on-cyan: var(--cyan-100);
+
+  /* Layout Colors */
+  --bg-color: var(--gray-900);
+  --fg-color: var(--gray-800);
+  --navbar-bg: linear-gradient(
+    135deg,
+    var(--gray-800) 0%,
+    var(--gray-700) 100%
+  );
+  --fg-hover-color: var(--gray-700);
+  --card-bg: var(--gray-800);
+  --disabled-text-color: var(--gray-500);
+  --disabled-control-bg: var(--gray-700);
+  --control-bg: var(--gray-700);
+  --control-bg-on-gray: var(--gray-800);
+  --awesomebar-focus-bg: var(--control-bg);
+  --awesomplete-hover-bg: var(--gray-700);
+  --modal-bg: var(--gray-700);
+  --toast-bg: var(--modal-bg);
+  --popover-bg: var(--bg-color);
+
+  /* Additional Colors */
+  --error-bg: var(--red-900);
+  --error-border: var(--red-400);
+  --icon-fill: transparent;
+  --icon-stroke: var(--yellow-500);
+  --alert-text-danger: var(--red-300);
+  --alert-text-warning: var(--yellow-300);
+  --alert-text-info: var(--blue-300);
+  --alert-text-success: var(--green-300);
+  --alert-bg-danger: var(--red-900);
+  --alert-bg-warning: var(--yellow-900);
+  --alert-bg-info: var(--blue-900);
+  --alert-bg-success: var(--green-900);
+  --sidebar-select-color: var(--gray-800);
+  --scrollbar-thumb-color: var(--yellow-700);
+  --scrollbar-track-color: var(--gray-800);
+  --shadow-inset: var(--fg-color);
+  --border-color: var(--gray-700);
+  --dark-border-color: var(--yellow-800);
+  --table-border-color: var(--gray-700);
+  --highlight-color: var(--gray-700);
+  --yellow-highlight-color: var(--yellow-800);
+  --btn-group-border-color: var(--gray-800);
+  --highlight-shadow: 1px 1px 12px var(--yellow-900),
+    0px 0px 6px var(--yellow-700);
+  --shadow-base: 0px 4px 10px rgba(255, 215, 0, 0.15),
+    0px 0px 6px rgba(255, 227, 102, 0.2);
+  --diff-added: var(--green-800);
+  --diff-removed: var(--red-800);
+  --input-disabled-bg: none;
+  --checkbox-focus-shadow: 0 0 0 2px var(--yellow-700);
+  color-scheme: dark;
+
+  /* Modern Enhancements */
+  --primary-gradient: linear-gradient(
+    135deg,
+    var(--yellow-700) 0%,
+    var(--yellow-500) 100%
+  );
+  --card-shadow: 0 4px 24px rgba(0, 0, 0, 0.35),
+    0 0 50px rgba(255, 215, 0, 0.12);
+  --hover-shadow: 0 8px 36px rgba(0, 0, 0, 0.45),
+    0 0 70px rgba(255, 215, 0, 0.18);
+  --glow-effect: 0 0 20px rgba(255, 215, 0, 0.3);
+
+  /* Frappe Charts Colors */
+  .chart-container {
+    --charts-label-color: var(--gray-300);
+    --charts-axis-line-color: var(--yellow-800);
+    --charts-stroke-width: 5px;
+    --charts-dataset-circle-stroke: var(--yellow-600);
+    --charts-dataset-circle-stroke-width: var(--charts-stroke-width);
+    --charts-tooltip-title: var(--yellow-400);
+    --charts-tooltip-label: var(--gray-300);
+    --charts-tooltip-value: var(--yellow-200);
+    --charts-tooltip-bg: var(--gray-900);
+    --charts-legend-label: var(--gray-300);
+  }
+
+  .heatmap-chart {
+    g > rect[fill="#ebedf0"] {
+      fill: var(--gray-700);
+    }
+  }
+
+  .rating {
+    --star-fill: var(--yellow-600);
+
+    .star-hover {
+      --star-fill: var(--yellow-500);
+    }
+  }
+
+  .skeleton {
+    --skeleton-bg: var(--gray-800);
+  }
+
+  ::selection {
+    color: var(--gray-900);
+    background: var(--yellow-500);
+  }
+
+  /* Modern UI Enhancements with Canary Glow */
+  .page-head {
+    background: linear-gradient(
+      135deg,
+      var(--gray-800) 0%,
+      var(--gray-700) 100%
+    );
+    border-bottom: 2px solid var(--yellow-700);
+    box-shadow: 0 2px 12px rgba(0, 0, 0, 0.25), 0 0 30px rgba(255, 215, 0, 0.1);
+  }
+
+  .sidebar {
+    background: var(--gray-900);
+    border-right: 1px solid var(--yellow-800);
+  }
+
+  .sidebar-item:hover {
+    background: linear-gradient(90deg, var(--gray-800) 0%, transparent 100%);
+    border-left: 3px solid var(--yellow-600);
+    transform: translateX(3px);
+    transition: all 0.2s ease;
+    box-shadow: var(--glow-effect);
+  }
+
+  .btn-primary {
+    background: var(--primary-gradient);
+    border: none;
+    box-shadow: 0 2px 10px rgba(255, 215, 0, 0.35);
+    transition: all 0.3s ease;
+    font-weight: 600;
+  }
+
+  .btn-primary:hover {
+    transform: translateY(-2px);
+    box-shadow: var(--hover-shadow);
+    filter: brightness(1.1);
+  }
+
+  .card {
+    background: var(--card-bg);
+    border: 1px solid var(--gray-700);
+    box-shadow: var(--card-shadow);
+    border-radius: 10px;
+    transition: all 0.3s ease;
+    overflow: hidden;
+  }
+
+  .card:hover {
+    box-shadow: var(--hover-shadow);
+    transform: translateY(-5px);
+    border-color: var(--yellow-800);
+  }
+
+  .navbar {
+    background: var(--navbar-bg);
+    border-bottom: 2px solid var(--yellow-700);
+    box-shadow: 0 2px 18px rgba(0, 0, 0, 0.35), 0 0 40px rgba(255, 215, 0, 0.08);
+  }
+
+  .form-control:focus {
+    border-color: var(--yellow-600);
+    box-shadow: 0 0 0 4px rgba(255, 215, 0, 0.15), var(--glow-effect);
+  }
+
+  .indicator-pill {
+    border-radius: 14px;
+    padding: 5px 14px;
+    font-weight: 600;
+    backdrop-filter: blur(12px);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+  }
+
+  /* Links & Accents */
+  a {
+    color: var(--yellow-400);
+    transition: all 0.2s ease;
+  }
+
+  a:hover {
+    color: var(--yellow-300);
+    text-shadow: 0 0 8px rgba(255, 215, 0, 0.4);
+  }
+
+  /* Badges */
+  .badge {
+    background: var(--yellow-700);
+    color: var(--gray-900);
+    font-weight: 600;
+    padding: 4px 10px;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+  }
+
+  /* Scrollbar Styling with Canary Glow */
+  ::-webkit-scrollbar {
+    width: 12px;
+    height: 12px;
+  }
+
+  ::-webkit-scrollbar-track {
+    background: var(--scrollbar-track-color);
+    border-radius: 6px;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background: var(--scrollbar-thumb-color);
+    border-radius: 6px;
+    border: 2px solid var(--scrollbar-track-color);
+    box-shadow: var(--glow-effect);
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    background: var(--yellow-600);
+    box-shadow: 0 0 25px rgba(255, 215, 0, 0.4);
+  }
+
+  $indicator-colors: blue, light-blue, dark-blue, green, yellow, orange, red,
+    gray, grey, darkgrey, purple, pink, cyan;
+  @each $color in $indicator-colors {
+    .indicator {
+      --indicator-dot-#{"" + $color}: var(--bg-#{$color});
+    }
+  }
+
+  /* Animation Effects */
+  @keyframes canary-pulse {
+    0%,
+    100% {
+      box-shadow: 0 0 20px rgba(255, 215, 0, 0.3);
+    }
+    50% {
+      box-shadow: 0 0 30px rgba(255, 215, 0, 0.5);
+    }
+  }
+
+  .pulse-glow {
+    animation: canary-pulse 2s ease-in-out infinite;
+  }
+}

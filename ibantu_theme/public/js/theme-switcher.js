@@ -1,5 +1,8 @@
 frappe.provide("frappe.ui");
 
+// Log theme loading
+console.log("🎨 Ibantu Theme Loaded - Modern Yellow Themes Available!");
+
 frappe.ui.ThemeSwitcher = class IbantuThemeSwitcher extends (
   frappe.ui.ThemeSwitcher
 ) {
