@@ -1,10 +1,9 @@
 {
   "name": "ibantu_theme",
-  "version": "1.0.0",
+  "version": "1.0.3",
   "description": "Modern Yellow Theme for ERPNext",
-  "main": "ibantu_theme/public/js/ibantu.bundle.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"No tests specified\""
   },
   "repository": {
     "type": "git",

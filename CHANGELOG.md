@@ -5,6 +5,21 @@ All notable changes to Ibantu Theme will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.0.3] - 2024-12-18
+
+### Fixed
+
+- 🐛 Fixed bench build error: "paths[0] must be of type string. Received undefined"
+- ✅ Added `build.json` to skip build process (app uses pre-compiled CSS/JS)
+- ✅ Removed invalid `main` entry from package.json
+- 🔧 Updated package.json version to match app version
+
+### Technical
+
+- No build process required - all assets are pre-compiled
+- Frappe esbuild now correctly skips this app
+- Direct CSS/JS loading via hooks.py
+
 ## [1.0.2] - 2024-12-18
 
 ### Fixed
