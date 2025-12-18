@@ -1,0 +1,27 @@
+{
+  "name": "ibantu_theme",
+  "version": "1.0.0",
+  "description": "Modern Yellow Theme for ERPNext",
+  "main": "ibantu_theme/public/js/ibantu.bundle.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/ibantu-theme.git"
+  },
+  "keywords": [
+    "frappe",
+    "erpnext",
+    "theme",
+    "yellow",
+    "golden",
+    "canary",
+    "dark-mode"
+  ],
+  "author": "Ibantu Team",
+  "license": "MIT",
+  "devDependencies": {
+    "sass": "^1.32.0"
+  }
+}

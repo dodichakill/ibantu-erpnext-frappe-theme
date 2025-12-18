@@ -1,0 +1,19 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include ibantu_theme *.css
+recursive-include ibantu_theme *.csv
+recursive-include ibantu_theme *.html
+recursive-include ibantu_theme *.ico
+recursive-include ibantu_theme *.js
+recursive-include ibantu_theme *.json
+recursive-include ibantu_theme *.md
+recursive-include ibantu_theme *.png
+recursive-include ibantu_theme *.py
+recursive-include ibantu_theme *.svg
+recursive-include ibantu_theme *.txt
+recursive-include ibantu_theme *.scss
+recursive-exclude ibantu_theme *.pyc
