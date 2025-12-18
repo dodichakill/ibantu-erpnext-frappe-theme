@@ -34,6 +34,9 @@ Tema dengan canary yellow yang vibrant dan modern.
 
 ## 🚀 Instalasi
 
+⚠️ **IMPORTANT**: Build error saat install adalah **NORMAL** dan tidak masalah!  
+📖 Baca penjelasan lengkap: [BUILD_ERROR_EXPLANATION.md](BUILD_ERROR_EXPLANATION.md)
+
 ### Persyaratan
 
 - Frappe Framework (versi 13 atau lebih baru)
@@ -43,11 +46,14 @@ Tema dengan canary yellow yang vibrant dan modern.
 
 1. **Pastikan Anda sudah menginstall Frappe dan ERPNext**
 
-2. **Clone repository ke dalam direktori apps**
+2. **Get app (build error AKAN MUNCUL - ini NORMAL!)**
 
    ```bash
    cd /path/to/frappe-bench
    bench get-app https://github.com/dodichakill/ibantu-erpnext-frappe-theme.git
+   
+   # Build error akan muncul - ABAIKAN!
+   # App sudah terinstall dengan benar meskipun ada error
    ```
 
 3. **Install app ke site Anda**
